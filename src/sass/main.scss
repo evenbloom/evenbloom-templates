@@ -1,0 +1,9 @@
+//main sass file
+@forward 'base/colors';
+@forward 'base/reset';
+@forward 'base/typography';
+
+@forward 'layout/nav';
+@forward 'layout/footer';
+
+@forward 'pages/home';
