@@ -1,0 +1,3 @@
+.theme-dark body {
+  --color-bg-default: rgb(32, 32, 32) !important;
+}
