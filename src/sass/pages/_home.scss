@@ -46,3 +46,11 @@
 .notion-dropdown__option-icon {
   display: none !important;
 }
+
+.notion-dropdown__option:hover {
+  background: none !important;
+}
+
+.notion-dropdown__menu.animate-out {
+  animation: none !important;
+}
