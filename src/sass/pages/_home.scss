@@ -1,5 +1,14 @@
 //home page
 
+.notion-header__title {
+  display: none !important;
+}
+
 .super-content.max-width {
   max-width: var(--max-width) !important;
+}
+
+.notion-sematic-string .link {
+  color: orange !important;
+  border-bottom: 0px !important;
 }
