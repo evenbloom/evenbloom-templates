@@ -139,7 +139,7 @@ p.notion-text__content {
   max-width: var(--max-width) !important;
 }
 
-.notion-sematic-string .link {
+.notion-semantic-string .link {
   color: orange !important;
   border-bottom: 0px !important;
 }
