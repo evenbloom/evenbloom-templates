@@ -121,3 +121,15 @@ p.notion-text__content {
     font-size: var(--font-size-0) !important;
   }
 }
+.super-navbar {
+  width: var(--max-width) !important;
+}
+
+:root {
+  --max-width: 1200px !important;
+  --transition: all 0.12s ease-in 0s !important;
+}
+
+.max-width {
+  max-width: var(--max-width) !important;
+}

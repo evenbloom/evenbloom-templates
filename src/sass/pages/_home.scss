@@ -1,1 +1,8 @@
+:root {
+  --max-width: 1200px !important;
+  --transition: all 0.12s ease-in 0s !important;
+}
 
+.max-width {
+  max-width: var(--max-width) !important;
+}
