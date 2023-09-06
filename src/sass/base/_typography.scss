@@ -1,0 +1,43 @@
+:root {
+  --font-size-0: 1rem;
+  --font-size-1: 1.125rem;
+  --font-size-2: 1.1875rem;
+  --font-size-3: 2rem;
+  --font-size-4: 2.5rem;
+  --font-size-5: 4rem;
+  --font-size-6: 4.5rem;
+  --font-size-7: 5.5rem;
+}
+
+h1.notion-heading {
+  font-size: var(--font-size-6) !important;
+  font-weight: 500 !important;
+  max-width: 50rem !important;
+  top: -1rem !important;
+  line-height: 1em !important;
+  margin-bottom: 1rem !important;
+}
+
+h2.notion-heading {
+  font-size: var(--font-size-5) !important;
+  line-height: 1.1 !important;
+  margin-bottom: 1.5rem !important;
+  font-weight: 500 !important;
+}
+
+p,
+p.notion-text__content {
+  font-size: var(--font-size-1) !important;
+  color: var(--color-paragraph-default) !important;
+  letter-spacing: 0.025rem !important;
+}
+
+@media screen and (max-width: 1288px) {
+  h1.notion-heading {
+    font-size: var(--font-size-6) !important;
+  }
+
+  p {
+    font-size: var(--font-size-0) !important;
+  }
+}
