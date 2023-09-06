@@ -143,3 +143,35 @@ p.notion-text__content {
   color: orange !important;
   border-bottom: 0px !important;
 }
+
+.notion-dropdown__button {
+  display: none !important;
+}
+
+.notion-dropdown__menu.initial-state {
+  z-index: 1 !important;
+  opacity: 1 !important;
+  transform: none !important;
+}
+
+.notion-dropdown__menu {
+  background: none !important;
+  box-shadow: unset !important;
+  left: auto !important;
+  top: auto !important;
+  position: relative !important;
+}
+
+.notion-dropdown__menu-header {
+  display: none !important;
+}
+
+.notion-dropdown__option-list {
+  display: flex !important;
+  padding: 20px 0 0 0 !important;
+  margin-left: -10px !important;
+}
+
+.notion-dropdown__option-icon {
+  display: none !important;
+}
