@@ -125,8 +125,9 @@ p.notion-text__content {
 }
 .super-navbar {
   width: var(--max-width) !important;
+  max-width: var(--max-width) !important;
 }
 
-.max-width {
+.super-content.max-width {
   max-width: var(--max-width) !important;
 }
