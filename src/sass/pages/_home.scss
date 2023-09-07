@@ -9,7 +9,7 @@
 }
 
 .notion-semantic-string .link {
-  color: orange !important;
+  color: var(--color-pill-orange) !important;
   border-bottom: 0px !important;
 }
 
@@ -61,7 +61,14 @@
   border-top: none !important;
   .pill-default {
     background: 0 !important;
+    color: #fff !important;
     border: 1px solid #fff !important;
+  }
+  .pill-red,
+  .pill-purple {
+    background: var(--color-pill-orange) !important;
+    color: white !important;
+    border: none !important;
   }
   .notion-pill {
     text-transform: uppercase !important;
@@ -69,6 +76,7 @@
     padding: 1px 8px 0 !important;
     border-radius: 50px !important;
     font-size: 10px !important;
+    margin-inline-end: 10px !important;
   }
 }
 
