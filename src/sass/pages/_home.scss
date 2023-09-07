@@ -64,3 +64,9 @@
 #page-index .notion-header {
   display: none !important;
 }
+.notion-collection-card__content {
+  position: absolute;
+  bottom: 0 !important;
+  background: linear-gradient(to top, #6ba9a5 0, rgba(0, 0, 0, 0) 100%);
+  width: 100%;
+}
