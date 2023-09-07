@@ -36,6 +36,10 @@ p.notion-text__content {
   letter-spacing: 0.025rem !important;
 }
 
+.notion-heading .notion-semantic-string {
+  line-height: 1.2em !important;
+}
+
 @media screen and (max-width: 1288px) {
   h1.notion-heading {
     font-size: var(--font-size-6) !important;

@@ -31,6 +31,7 @@
   left: auto !important;
   top: auto !important;
   position: relative !important;
+  transform: none !important;
 }
 
 .notion-dropdown__menu-header {
@@ -53,4 +54,13 @@
 
 .notion-dropdown__menu.animate-out {
   animation: none !important;
+}
+
+//collection gallery
+.notion-collection-gallery {
+  border-top: none !important;
+}
+
+#page-index .notion-header{
+  display: none  !important;
 }

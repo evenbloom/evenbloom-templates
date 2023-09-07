@@ -116,6 +116,10 @@ p.notion-text__content {
   letter-spacing: 0.025rem !important;
 }
 
+.notion-heading .notion-semantic-string {
+  line-height: 1.2em !important;
+}
+
 @media screen and (max-width: 1288px) {
   h1.notion-heading {
     font-size: var(--font-size-6) !important;
@@ -160,6 +164,7 @@ p.notion-text__content {
   left: auto !important;
   top: auto !important;
   position: relative !important;
+  transform: none !important;
 }
 
 .notion-dropdown__menu-header {
@@ -182,4 +187,12 @@ p.notion-text__content {
 
 .notion-dropdown__menu.animate-out {
   animation: none !important;
+}
+
+.notion-collection-gallery {
+  border-top: none !important;
+}
+
+#page-index .notion-header {
+  display: none !important;
 }
