@@ -81,7 +81,7 @@ h6 {
 
 :root {
   --max-width: 1200px !important;
-  --transition: all 0.12s ease-in 0s !important;
+  --transition: transform 0.2s ease-in-out !important;
   --font-size-0: 1rem;
   --font-size-1: 1.125rem;
   --font-size-2: 1.1875rem;
@@ -199,6 +199,11 @@ p.notion-text__content {
 
 .notion-collection-card__cover {
   height: 100% !important;
+}
+.notion-collection-card__cover img {
+  padding: 0 !important;
+  height: 100% !important;
+  transition: var(--transition) !important;
 }
 
 .notion-collection-card__content {
