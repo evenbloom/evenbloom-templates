@@ -64,6 +64,11 @@
 #page-index .notion-header {
   display: none !important;
 }
+
+.notion-collection-card__cover {
+  height: 100% !important;
+}
+
 .notion-collection-card__content {
   position: absolute;
   bottom: 0 !important;
