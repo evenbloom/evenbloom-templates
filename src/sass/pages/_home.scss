@@ -59,6 +59,17 @@
 //collection gallery
 .notion-collection-gallery {
   border-top: none !important;
+  .pill-default {
+    background: 0 !important;
+    border: 1px solid #fff !important;
+  }
+  .notion-pill {
+    text-transform: uppercase !important;
+    font-weight: 500 !important;
+    padding: 1px 8px 0 !important;
+    border-radius: 50px !important;
+    font-size: 10px !important;
+  }
 }
 
 #page-index .notion-header {
@@ -67,17 +78,25 @@
 
 .notion-collection-card__cover {
   height: 100% !important;
-
-  img {
-    padding: 0 !important;
+  Picture {
     height: 100% !important;
-    transition: var(--transition) !important;
+
+    img {
+      padding: 0 !important;
+      height: 100% !important;
+      transition: var(--transition) !important;
+    }
   }
 }
 
 .notion-collection-card__content {
+  color: var(--color-bg-default) !important;
   position: absolute;
   bottom: 0 !important;
   background: linear-gradient(to top, #6ba9a5 0, rgba(0, 0, 0, 0) 100%);
   width: 100%;
+}
+
+.notion-collection-card__property-list {
+  display: flex !important;
 }
