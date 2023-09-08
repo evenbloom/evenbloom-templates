@@ -177,9 +177,8 @@ h1.notion-heading {
 
 .super-content.max-width {
   max-width: var(--max-width) !important;
-  border-color: var(--color-border-blue) !important;
-  border-left: 1px solid !important;
-  border-right: 1px solid !important;
+  border-left: 1px var(--color-border-blue) solid !important;
+  border-right: 1px var(--color-border-blue) solid !important;
 }
 
 .notion-semantic-string .link {
