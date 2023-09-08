@@ -153,6 +153,8 @@ p.notion-text__content {
 
 .super-content.max-width {
   max-width: var(--max-width) !important;
+  border-left: 1px solid #a1c2c1 !important;
+  border-right: 1px solid #a1c2c1 !important;
 }
 
 .notion-semantic-string .link {
@@ -262,6 +264,15 @@ p.notion-text__content {
   padding: 0 !important;
   height: 100% !important;
   transition: var(--transition) !important;
+}
+
+.notion-header {
+  margin-bottom: 0 !important;
+}
+
+.notion-header__content .notion-header__title-wrapper {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
 }
 
 .notion-collection-card__content {
