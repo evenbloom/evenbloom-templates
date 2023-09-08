@@ -1,13 +1,40 @@
 /* <-- home page --> */
 
+//transition elements
+@keyframes slideInFromBottom {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+h1.notion-heading {
+  /* This section calls the slideInFromLeft animation we defined above */
+  animation: 0.5s ease-in-out 0s 1 slideInFromBottom;
+}
+
+#block-d65e3380c10b4ace94f723920fafaa3d {
+  animation: 0.7s ease-in-out 0s 1 slideInFromBottom;
+}
+
+#block-16a698433de343b6b5f4e21e70fb941b {
+  animation: 0.9s ease-in-out 0s 1 slideInFromBottom;
+}
+
+//header
 .notion-header__title {
   display: none !important;
 }
 
 .super-content.max-width {
   max-width: var(--max-width) !important;
-  border-left: 1px solid #a1c2c1 !important;
-  border-right: 1px solid #a1c2c1 !important;
+  border-color: var(--color-border-blue) !important;
+  border-left: 1px solid !important;
+  border-right: 1px solid !important;
 }
 
 .notion-semantic-string .link {
