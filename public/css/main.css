@@ -230,8 +230,9 @@ h1.notion-heading {
   transition: var(--transition) !important;
   margin: 10px 5px !important;
 }
-.notion-dropdown__option :hover {
-  background: var(--color-border-blue) !important;
+
+.notion-dropdown__option:hover {
+  background-color: var(--color-border-blue) !important;
 }
 
 .notion-dropdown__menu.animate-out {

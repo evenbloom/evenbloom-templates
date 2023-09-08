@@ -81,10 +81,10 @@ h1.notion-heading {
   border-radius: 50px !important;
   transition: var(--transition) !important;
   margin: 10px 5px !important;
+}
 
-  :hover {
-    background: var(--color-border-blue) !important;
-  }
+.notion-dropdown__option:hover {
+  background-color: var(--color-border-blue) !important;
 }
 
 .notion-dropdown__menu.animate-out {
