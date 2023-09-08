@@ -1,4 +1,4 @@
-//home page
+/* <-- home page --> */
 
 .notion-header__title {
   display: none !important;
@@ -80,8 +80,33 @@
   }
 }
 
-#page-index .notion-header {
+//cover image
+.notion-header__cover.has-cover {
+  position: absolute !important;
+  width: 100% !important;
+  opacity: 0.5 !important;
+  max-height: 60vh !important;
+  height: 60vh !important;
+  z-index: -2 !important;
+  top: 0 !important;
+  -webkit-mask-image: var(--color-mask-default) !important;
+  mask-image: var(--color-mask-default) !important;
+}
+
+.notion-header__cover.no-cover {
   display: none !important;
+}
+
+.notion-header__cover:after,
+.footer-cover:before {
+  content: "" !important;
+  position: absolute !important;
+  z-index: 1 !important;
+  bottom: -2px !important;
+  left: 0 !important;
+  background-image: var(--theme-gradient) !important;
+  width: 100% !important;
+  height: 100% !important;
 }
 
 .notion-collection-card__cover {
