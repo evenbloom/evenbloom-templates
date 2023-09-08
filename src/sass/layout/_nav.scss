@@ -5,4 +5,9 @@
   max-width: var(--max-width) !important;
   margin: auto !important;
   padding: 0 80px !important;
+  background: var(--color-bg-glass-default) !important;
+  backdrop-filter: blur(10px) !important;
+  -webkit-backdrop-filter: blur(10px) !important;
+  border-left: 1px var(--color-border-blue) solid !important;
+  border-right: 1px var(--color-border-blue) solid !important;
 }
