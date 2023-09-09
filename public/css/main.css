@@ -313,9 +313,12 @@ h1.notion-heading {
 
 .notion-collection-card__content {
   color: var(--color-bg-default) !important;
-  position: absolute;
+  position: absolute !important;
+  display: inline-grid !important;
+  height: 200px !important;
+  align-content: end !important;
   bottom: 0 !important;
-  background: linear-gradient(to top, #6ba9a5 0, rgba(0, 0, 0, 0) 100%);
+  background: linear-gradient(180deg, rgba(149, 203, 201, 0) 0%, #95cbc9 100%);
   width: 100%;
 }
 
