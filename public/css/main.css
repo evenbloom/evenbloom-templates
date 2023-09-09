@@ -325,3 +325,8 @@ h1.notion-heading {
 .notion-collection-card__property-list {
   display: flex !important;
 }
+
+.notion-collection-card:hover .notion-collection-card__cover img {
+  transform: scale(1.05) !important;
+  -webkit-transform: scale(1.05) !important;
+}
