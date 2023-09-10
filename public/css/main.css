@@ -330,3 +330,48 @@ h1.notion-heading {
   transform: scale(1.05) !important;
   -webkit-transform: scale(1.05) !important;
 }
+
+.notion-toggle {
+  border: 1px solid var(--color-border-blue) !important;
+  border-radius: 5px !important;
+  text-align: left !important;
+  margin: -0.5px !important;
+  position: relative !important;
+}
+
+.notion-toggle-heading-3 > .notion-toggle__summary {
+  margin-top: 0px !important;
+}
+
+.notion-toggle__summary::before {
+  position: absolute !important;
+  right: 20px !important;
+  opacity: 0.4 !important;
+  content: "+" !important;
+}
+
+.notion-toggle[open] > summary::before {
+  content: "-" !important;
+}
+
+.notion-toggle__summary:hover:before {
+  background: none !important;
+  opacity: 1 !important;
+}
+
+.notion-toggle__summary {
+  padding: 25px 70px 25px 0px !important;
+}
+
+.notion-toggle__trigger {
+  margin-right: 25px !important;
+}
+
+.notion-toggle__trigger_icon {
+  display: none !important;
+}
+
+.notion-toggle__content {
+  padding: 0px 30px 20px 30px !important;
+  background: var(--color-hover-default) !important;
+}
