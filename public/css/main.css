@@ -342,6 +342,7 @@ h1.notion-heading {
   text-align: left !important;
   margin: -0.5px !important;
   position: relative !important;
+  transition: var(--transition) !important;
 }
 
 .notion-toggle-heading-3 > .notion-toggle__summary {
