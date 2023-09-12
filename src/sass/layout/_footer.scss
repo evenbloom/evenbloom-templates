@@ -1,0 +1,13 @@
+.super-footer.corners,
+.super-footer.floating {
+  grid-template-columns: 2fr 1fr !important;
+  border-color: var(--color-border-blue) !important;
+  border-left: 1px solid;
+  border-right: 1px solid;
+}
+
+.super-footer {
+  width: 1200px;
+  margin: auto;
+  background: var(--color-hover-default) !important;
+}
