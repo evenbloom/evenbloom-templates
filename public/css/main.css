@@ -1,5 +1,5 @@
 .theme-dark body {
-  --color-paragraph-default: rgb(114, 115, 105) !important;
+  --color-paragraph-default: #727369 !important;
   --color-bg-default: rgb(5, 23, 23) !important;
   --color-pill-orange: rgb(249, 183, 72) !important;
   --color-mask-default: linear-gradient(
@@ -381,4 +381,39 @@ h1.notion-heading {
   padding: 0px 30px 20px 30px !important;
   background: var(--color-hover-default) !important;
   transition: 0.3s ease-in-out !important;
+}
+
+.notion-callout.bg-gray-light.border {
+  background-color: transparent !important;
+  border-color: var(--color-border-blue) !important;
+}
+
+.notion-callout__icon {
+  display: none !important;
+}
+
+.notion-callout__content {
+  margin-inline-start: 0px !important;
+  padding: 0 20px;
+}
+.notion-callout__content .notion-column-list {
+  display: flex;
+  align-items: center;
+}
+
+.notion-embed__container {
+  position: unset !important;
+}
+
+.notion-embed__container > iframe {
+  height: fit-content !important;
+  width: 520px !important;
+}
+
+.jtGePq {
+  display: none !important;
+}
+
+.hhEHPu {
+  display: none !important;
 }
