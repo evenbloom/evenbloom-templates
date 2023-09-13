@@ -269,3 +269,31 @@ h1.notion-heading {
 .hhEHPu {
   display: none !important;
 }
+
+//button
+.notion-root
+  .notion-text
+  .notion-text__content
+  .notion-semantic-string
+  span
+  strong
+  .notion-link,
+.notion-text
+  .notion-text__content
+  .notion-semantic-string
+  span
+  .notion-link
+  strong {
+  opacity: 1;
+  border: 1px solid var(--color-border-blue) !important;
+  border-radius: 50px !important;
+  text-align: left !important;
+  padding: 8px 12px;
+  margin: -0.5px !important;
+  transition: background 0.3s ease-in-out !important;
+
+  &:hover {
+    background: var(--color-hover-default) !important;
+    transition: var(--transition) !important;
+  }
+}
