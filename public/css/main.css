@@ -376,7 +376,7 @@ h1.notion-heading {
   content: "+" !important;
 }
 
-.notion-toggle[open] > summary::before {
+.notion-toggle.open:before {
   content: "-" !important;
 }
 
@@ -447,4 +447,153 @@ h1.notion-heading {
 .notion-text .notion-text__content .notion-semantic-string span .notion-link strong:hover {
   background: var(--color-hover-default) !important;
   transition: var(--transition) !important;
+}
+
+#block-1f1f9ce0c3694e888395ef682636227a {
+  display: none !important;
+}
+
+.container-wrapper {
+  margin: 0 auto !important;
+  position: relative !important;
+}
+
+.subscribe-wrapper {
+  margin: 0 auto !important;
+  margin-top: 90px !important;
+  margin-bottom: 90px !important;
+}
+
+form {
+  align-items: center;
+  padding: 40px;
+  gap: 35px;
+  align-content: center;
+  display: grid;
+  border-radius: 5px;
+  margin: 0 auto;
+  border: 1px solid rgba(155, 196, 188, 0.2);
+}
+
+form img {
+  margin: 0 auto;
+  margin-top: -120px !important;
+  display: flex !important;
+  align-content: center !important;
+  width: 200px !important;
+  height: 200px !important;
+}
+
+.title-wrapper {
+  margin: 0 auto;
+  padding-bottom: 0px;
+  text-align: center;
+}
+
+.title-wrapper h3 {
+  margin-block-start: 0em !important;
+  margin-block-end: 0.2em !important;
+}
+
+.form-wrapper {
+  align-items: baseline;
+  margin: 0 auto;
+  display: flex;
+  gap: 10px;
+}
+
+input[type=email] {
+  width: 100%;
+  padding: 10px;
+  padding-left: 20px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 50px;
+  font-size: 16px;
+}
+
+input[type=submit] {
+  background: transparent;
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  border: 1px solid var(--color-border-blue);
+  padding: 10px 18px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+input[type=submit]:hover {
+  background-color: var(--color-pill-orange);
+}
+
+@media (max-width: 546px) {
+  .form-wrapper {
+    align-items: center;
+    gap: 0;
+    flex-direction: column;
+  }
+  input[type=email] {
+    margin-bottom: 0px !important;
+  }
+  .super-navbar {
+    width: 100% !important;
+  }
+  .super-footer {
+    width: 100% !important;
+  }
+  .super-footer.corners,
+  .super-footer.floating {
+    padding: 20px 20px 10px !important;
+    grid-template-columns: 1fr !important;
+  }
+  .notion-dropdown {
+    width: 100% !important;
+  }
+  .notion-dropdown__button {
+    display: flex !important;
+    justify-content: space-between !important;
+    width: 100% !important;
+    border: 1px solid var(--color-border-blue) !important;
+    padding: 10px !important;
+    border-radius: 5px !important;
+  }
+  .notion-dropdown__menu-wrapper {
+    margin-bottom: 25px !important;
+  }
+  .notion-dropdown__menu.animate-out {
+    animation: dropdown-animation-out 0.12s ease forwards !important;
+  }
+  .notion-dropdown__menu.animate-in {
+    animation: dropdown-animation-in 0.12s ease forwards !important;
+  }
+  .notion-dropdown__menu {
+    background: white !important;
+    position: absolute !important;
+    width: 100% !important;
+    margin-top: 5px !important;
+    border-radius: 5px !important;
+    border: 1px solid var(--color-border-blue) !important;
+  }
+  .notion-dropdown__option {
+    height: 50px !important;
+    padding: 5px 16px !important;
+    border: 0px !important;
+    border-radius: 0px !important;
+    transition: var(--transition) !important;
+    margin: 0px !important;
+  }
+  .notion-dropdown__menu.initial-state {
+    opacity: 0 !important;
+    z-index: -1 !important;
+  }
+  .notion-dropdown__menu-header,
+  .notion-dropdown__button svg:first-of-type {
+    display: none !important;
+  }
+  .notion-dropdown__option-list {
+    padding: 0px !important;
+    flex-direction: column !important;
+  }
 }
