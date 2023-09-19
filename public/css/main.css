@@ -561,11 +561,33 @@ input[type=submit]:hover {
   background-color: var(--color-pill-orange);
 }
 
+.parent-page__index .notion-callout.bg-gray-light.border {
+  position: sticky !important;
+  top: 80px !important;
+}
+.parent-page__index h1.notion-heading {
+  font-size: var(--font-size-3) !important;
+}
+.parent-page__index u {
+  text-decoration: none !important;
+  font-size: var(--font-size-2) !important;
+  font-weight: 500 !important;
+  color: var(--color-pill-orange) !important;
+}
+.parent-page__index .notion-semantic-string .code {
+  color: white !important;
+  background: orange !important;
+  border-radius: 50px !important;
+  font-size: 15px !important;
+  font-family: inter !important;
+}
+
 @media (max-width: 546px) {
   .notion-collection-gallery.large {
     grid-auto-columns: minmax(240px, 1fr) !important;
     grid-auto-flow: column !important;
     overflow: hidden !important;
+    gap: 28px !important;
   }
   .form-wrapper {
     align-items: center;

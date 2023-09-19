@@ -411,6 +411,34 @@ input[type="submit"]:hover {
   background-color: var(--color-pill-orange);
 }
 
+//Inner pages
+
+.parent-page__index {
+  .notion-callout.bg-gray-light.border {
+    position: sticky !important;
+    top: 80px !important;
+  }
+
+  h1.notion-heading {
+    font-size: var(--font-size-3) !important;
+  }
+
+  u {
+    text-decoration: none !important;
+    font-size: var(--font-size-2) !important;
+    font-weight: 500 !important;
+    color: var(--color-pill-orange) !important;
+  }
+
+  .notion-semantic-string .code {
+    color: white !important;
+    background: orange !important;
+    border-radius: 50px !important;
+    font-size: 15px !important;
+    font-family: inter !important;
+  }
+}
+
 //media queries
 
 @media (max-width: 546px) {
@@ -418,6 +446,7 @@ input[type="submit"]:hover {
     grid-auto-columns: minmax(240px, 1fr) !important;
     grid-auto-flow: column !important;
     overflow: hidden !important;
+    gap: 28px !important;
   }
   .form-wrapper {
     align-items: center;
