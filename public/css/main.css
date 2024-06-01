@@ -64,7 +64,6 @@ video,
 canvas,
 svg {
   display: block !important;
-  max-width: 100% !important;
 }
 
 /*
